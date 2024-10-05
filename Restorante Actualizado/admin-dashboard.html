@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        body {
+            background-image: url('C:/xampp/htdocs/Restaurant/images/home-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+        .container-fluid {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+            overflow: hidden;
+        }
+        .card-body {
+            padding: 20px;
+        }
+        .btn-block {
+            border-radius: 25px;
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="card p-4 shadow-lg animate__animated animate__fadeIn" style="width: 100%; max-width: 800px;">
+            <div class="card-body text-center">
+                <h2 class="card-title mb-4 animate__animated animate__bounceInDown">Admin Dashboard</h2>
+                <div class="row">
+                    <div class="col-md-6 mb-3 animate__animated animate__fadeInUp">
+                        <a href="add-dish.html" class="btn btn-primary btn-block">Adicionar Novo Prato</a>
+                    </div>
+                    <div class="col-md-6 mb-3 animate__animated animate__fadeInUp animate__delay-1s">
+                        <a href="view-dishes.php" class="btn btn-primary btn-block">Visualizar Todos os Pratos</a>
+                    </div>
+                    <div class="col-md-6 mb-3 animate__animated animate__fadeInUp animate__delay-2s">
+                        <a href="edit-dish.html" class="btn btn-primary btn-block">Editar Prato</a>
+                    </div>
+                    <div class="col-md-6 mb-3 animate__animated animate__fadeInUp animate__delay-3s">
+                        <a href="delete-dish.html" class="btn btn-primary btn-block">Excluir Prato</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
