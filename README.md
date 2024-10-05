@@ -24,8 +24,7 @@ Para instalar e executar o sistema localmente, siga os passos abaixo:
 
     bash
 
-    git clone https://github.com/seu_usuario/nome_do_repositorio.git
-
+    git clone https://github.com/Baqmut/Web-Application-for-Restaurant-Management-with-Intelligent-Recommendation.git
     Configure o Banco de Dados:
         Crie um banco de dados no MySQL e importe o arquivo SQL localizado na pasta database.
     Ajuste as Configurações:
