@@ -12,10 +12,18 @@ Funcionalidades
 
 Tecnologias Utilizadas
 
-    PHP: Linguagem de programação principal utilizada para o desenvolvimento do backend.
-    MySQL: Sistema de gerenciamento de banco de dados utilizado para armazenar informações sobre pedidos e estoque.
-    HTML, CSS e JavaScript: Tecnologias utilizadas para construir uma interface amigável e responsiva.
+Tecnologias Utilizadas
 
+    PHP: Linguagem de programação principal utilizada para o desenvolvimento do backend, permitindo a criação de uma lógica robusta e interativa para o sistema.
+    MySQL: Sistema de gerenciamento de banco de dados relacional utilizado para armazenar e gerenciar informações sobre pedidos, clientes e estoque, garantindo integridade e                     acessibilidade dos dados.
+    Base de Dados: Estrutura que armazena informações organizadas, facilitando a recuperação e manipulação de dados em tempo real, essencial para o funcionamento do sistema.
+    HTML: Linguagem de marcação utilizada para estruturar o conteúdo da aplicação, proporcionando uma base sólida para a interface do usuário.
+    CSS: Linguagem de estilo utilizada para definir a apresentação visual da interface, permitindo a personalização e o design responsivo da aplicação.
+    JavaScript: Linguagem de programação que adiciona interatividade e dinamismo à interface do usuário, permitindo atualizações em tempo real e melhorando a experiência do cliente.
+    Bootstrap: Framework CSS utilizado para acelerar o desenvolvimento da interface responsiva, garantindo uma aparência profissional e otimizada para dispositivos móveis.
+    jQuery: Biblioteca JavaScript que simplifica a manipulação de elementos DOM, animações e requisições AJAX, tornando o código mais eficiente e fácil de manter.
+    Machine Learning: Implementação de algoritmos que analisam dados de consumo e preferências dos clientes, oferecendo recomendações personalizadas de pratos.
+    
 Instalação
 
 Para instalar e executar o sistema localmente, siga os passos abaixo:
